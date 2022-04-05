@@ -1,0 +1,301 @@
+/* color:#f1a5eb; 
+color fuerte: #ee5dad;*/
+body
+{
+    font-family: 'Times New Roman', Times, serif;
+    margin: 0px;
+    padding:0px;
+    font-size:15px;
+   
+}
+.imagen{
+    position: relative;
+    top: 25px;
+}
+*{
+    padding: auto;
+}
+h1{
+    font-size: 40px;
+    text-align: center;
+    font-weight: normal;
+    text-transform: uppercase;
+}
+h2{
+    text-transform: uppercase;
+}
+
+header
+{
+   height: 100px; 
+}
+nav{
+    width: 100%;
+    background-color: #f1a5eb;
+}
+nav ul{
+    padding: auto;
+    margin: 0px;
+}
+nav li
+{
+list-style-type: none;
+float: left;
+}
+nav a{
+    display:inline-block;
+    text-decoration: none;
+    color: #fff;
+    text-transform: uppercase;
+    font-size: 13px;
+    padding:20px 30px;
+}
+.table{
+display:table;
+margin:auto;
+}
+.menu-index:hover {
+    border-top: 5px solid #3ab6f0;
+    background-color: #95cdf5;
+}
+.presentation{
+    border-top: 5px solid #3ab6f0;
+    background-color: #95cdf5; 
+}
+
+
+.menu-experience:hover{
+    border-top: 5px solid #09a576;
+    background-color: #3de496;
+}
+.parcours{
+    border-top: 5px solid #09a576;
+    background-color: #3de496;
+}
+
+
+.menu-hobbie:hover{
+    border-top: 5px solid #35cc5b;
+    background-color: #4afa84;
+}
+
+.competences{
+    border-top: 5px solid #35cc5b;
+    background-color: #4afa84;
+}
+.menu-contact:hover {
+    border-top: 5px solid #31b0eb;
+    background-color: #89d3f5;
+}
+.recommndation{
+    border-top: 5px solid #31b0eb;
+    background-color: #89d3f5;
+}
+nav li:hover a{
+    padding:15px 30px 20px 30px;
+
+}
+
+section{
+    width: 100%;
+    min-height:  300px;
+    padding:0px;
+    margin-bottom: 0px;
+}
+.sec{
+    margin: 0px 10%;
+
+}
+.left{
+    float:left;
+    width: 30%;
+}
+.right{
+    float: right;
+    width: 70%;
+}
+.cleft, .cright , .sousleft, .sousright{
+    width: 50%;
+    float: left;
+}
+.sec::after, .exp::after, .reco::after{
+    content: "";
+    display:table;
+    clear: both;
+
+}
+img{
+    width: 50%;
+    border-radius: 50%;
+    
+}
+.img{
+    position: relative;
+    top: 1px;
+}
+
+.orange{
+    border-top: 5px solid #93aa;
+    background-color:blueviolet;
+    margin-bottom: 0px;
+}
+.rosa{
+    border-top: 5px solid #ff9;
+    background-color: #ff8;
+    margin-bottom: 0px;
+}
+.vert{
+    border-top: 5px solid #dfdf;
+    background-color: #dfd7;
+}
+.azul{
+    border-top: 5px solid rgb(216, 195, 9);
+    background-color: rgba(226, 243, 76, 0.467);
+}
+.jaune{
+    border-top: 5px solid rgb(76, 180, 76);
+    background-color: rgba(159, 231, 159, 0.467);
+}
+.rojo{
+    border-top: 5px solid rgba(224, 11, 224, 0.667);
+    background-color: rgb(240, 140, 205)
+
+}
+.leftexp{
+    width: 45%;
+    float: left;
+}
+.rightexp{
+    width:50%;
+    float: left;
+    margin-left: 5%;
+
+}
+.leftexp img{
+    width:100%;
+    max-width:400px;
+}
+.leftexp1{
+    width:50%;
+    float: left;
+    margin-left: 5%;
+
+}
+.sec .leftexp1 img{
+    border-radius: 15%;
+}
+.cont{
+    background-color:#31b0eb; 
+    padding-top: 1px; 
+    padding-bottom: 1px;
+    border-top: 5px solid #066575;
+    
+}
+.cot {
+    margin: 20px;
+}
+form{
+    margin: 20px;
+   
+    
+}
+.red{
+    background-color:beige;
+    color: #eda2;
+}
+.sec{
+    text-align:center;
+    text-transform: uppercase;
+    font-size: 18px;
+}
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+@media(max-width: 780px){
+    header
+    {
+        height:50px;
+    }
+    h1
+    {
+        font-size: 28px;
+        margin: 20px 0px 0px 0px;
+    }
+    nav li a 
+    {
+        font-size: 13px;
+        padding:10px;
+    }
+    nav li:hover a 
+    {
+        padding:5px 10px 10px 10px;
+    }
+}
+@media (max-height: 600px){
+    header
+    {
+        height:50px;
+    }
+    h1
+    {
+        font-size: 28px;
+        margin: 20px 0px 0px 0px;
+    }
+    nav li a 
+    {
+        font-size: 13px;
+        padding:10px;
+    }
+    nav li:hover a 
+    {
+        padding:5px 10px 10px 10px;
+    }
+}
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+footer
+{
+    height: 100px;
+    padding-top: 20px;
+    text-align: center;
+    background-color:#f1a5eb;
+    border-top:2px solid #ee5dad;
+    border-bottom:2px solid#ee5dad;
+    width: 100%;
+}
